@@ -60,7 +60,7 @@ function Fullscreen() {
                   <div className="row">
                     <div className="col-lg-11 offset-lg-1">
                       <div className="caption">
-                        <h6 className="sub-title mb-30" data-swiper-parallax="-1000">© {item.caption.year} <br /> {item.caption.subTitle}</h6>
+                        <h6 className="sub-title mb-30" data-swiper-parallax="-1000">{item.caption.year} <br /> {item.caption.subTitle}</h6>
                         <h1>
                           <a href={item.caption.link} className="animsition-link">
                             <span data-swiper-parallax="-2000">{item.caption.title}</span>
@@ -86,14 +86,14 @@ function Fullscreen() {
         <div className="swiper-controls">
           <div className="swiper-button-next swiper-nav-ctrl cursor-pointer">
             <div>
-              <span>Next Slide</span>
+              <span>Suivant</span>
             </div>
             <div><i className="fas fa-chevron-right"></i></div>
           </div>
           <div className="swiper-button-prev swiper-nav-ctrl cursor-pointer">
             <div><i className="fas fa-chevron-left"></i></div>
             <div>
-              <span>Prev Slide</span>
+              <span>Précédent</span>
             </div>
           </div>
         </div>
