@@ -1,11 +1,19 @@
-const withNextra = require('nextra')({
-   theme: 'nextra-theme-blog',
-   themeConfig: './theme.config.js',
-});
+/** @type {import('next').NextConfig} */
+const path = require("path");
 
-module.exports = {
-  ...withNextra(),
-  images: {
-    unoptimized: true,
+const nextConfig = {
+  output: 'export',
+  reactStrictMode: false,
+  sassOptions: {
+    includePaths: [path.join(__dirname, "css")],
   },
-};
+  trailingSlash: true,
+  devIndicators: {
+    buildActivity: false,
+  },
+  eslint: {
+    ignoreDuringBuilds: false,
+  }
+}
+
+module.exports = nextConfig
