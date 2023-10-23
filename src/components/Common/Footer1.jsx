@@ -65,11 +65,8 @@ function Footer1({ subBg }) {
             </div>
             <div className="col-lg-3">
               <div className="column">
-                <h6 className="sub-title mb-30">Adresse : </h6>
-                <p>16 rue Saint Alexandre 69005 LYON</p>
-                <h5 className="mt-15 underline">
-                  <a href="#0">+33 6</a>
-                </h5>
+                <h6 className="sub-title mb-30">e-mail : </h6>
+                <p>contact@marionroche.com</p>
               </div>
             </div>
           </div>
@@ -80,10 +77,13 @@ function Footer1({ subBg }) {
               <div className="links">
                 <ul className="rest">
                   <li>
-                    <a href="/about" className="animsition-link">About me</a>
+                    <a href="/about" className="animsition-link">A propos</a>
                   </li>
                   <li>
-                    <a href="/contact" className="animsition-link">Contact Us</a>
+                    <a href="/contact" className="animsition-link">Contact</a>
+                  </li>
+                  <li>
+                    Site WEB distribué sur <a className="animsition-link" href='https://ipfs.tech'>IPFS</a>
                   </li>
                 </ul>
               </div>

@@ -8,7 +8,7 @@ function NextProject(props) {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <h6 className="sub-title fz-18">Next Project</h6>
+                <h6 className="sub-title fz-18">Projets</h6>
                 <div className="inline">
                   <div className="d-flex align-items-center">
                     <a href={props.url} className="animsition-link fz-70 fw-700 stroke">Projet Suivant</a>

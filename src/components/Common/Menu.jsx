@@ -53,7 +53,7 @@ function Menu() {
                     <ul className="rest">
                       <li>
                         <div className="o-hidden">
-                          <span className="sub-link back" onClick={handleCloseDMenu}><i className="pe-7s-angle-left"></i> Go Back</span>
+                          <span className="sub-link back" onClick={handleCloseDMenu}><i className="pe-7s-angle-left"></i> Retour</span>
                         </div>
                       </li>
                     </ul>

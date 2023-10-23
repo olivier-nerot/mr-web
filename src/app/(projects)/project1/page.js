@@ -29,6 +29,33 @@ export const metadata = {
   }
 }
 
+const images = [
+  {
+    "id": 1,
+    "image": "/assets/imgs/works/projects/0/2.jpg"
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/works/projects/0/3.jpg"
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/works/projects/0/4.jpg"
+  },
+  {
+    "id": 4,
+    "image": "/assets/imgs/works/projects/0/5.jpg"
+  },
+  {
+    "id": 5,
+    "image": "/assets/imgs/works/projects/0/6.jpg"
+  },
+  {
+    "id": 6,
+    "image": "/assets/imgs/works/projects/0/7.jpg"
+  }
+]
+
 export default function ProjectOnePage() {
   return (
     <body className="main-bg">
@@ -53,7 +80,7 @@ export default function ProjectOnePage() {
               <BottomContent 
                 content = ""
               />
-              <Works />
+              <Works images={images} />
             </div>
             <NextProject url="/project2"/>
           </main>

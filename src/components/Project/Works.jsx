@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect } from 'react';
 //= Static Data
-import data from '@/data/Project/works.json';
+// import data from '@/data/Project/works.json';
 
-function Works() {
+function Works({ images }) {
   useEffect(() => {
     if (window.innerWidth > 991) {
       let sections = gsap.utils.toArray(".panel");
@@ -36,7 +36,7 @@ function Works() {
 
   return (
     <div className="works thecontainer ontop">
-      {data.map(item => (
+      {images.map(item => (
         <div className="panel" key={item.id}>
           <div className="item">
             <div className="img">

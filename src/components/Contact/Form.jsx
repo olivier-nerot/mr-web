@@ -8,8 +8,8 @@ function Form() {
           <div className="col-lg-8">
             <div className="full-width">
               <div className="sec-head text-center mb-80">
-                <span className="sub-title mb-15 opacity-8">- Contact Us</span>
-                <h3 className="text-u fz-50">Get In Touch.</h3>
+                <span className="sub-title mb-15 opacity-8">MarionRoche.com</span>
+                <h3 className="text-u fz-50">Contact</h3>
               </div>
               <form id="contact-form" method="post" action="contact.php">
                 <div className="messages"></div>
@@ -31,7 +31,7 @@ function Form() {
                     <div className="text-center">
                       <div className="mt-30 hover-this cursor-pointer">
                         <button type="submit" className="hover-anim">
-                          <span className="text">Let's Talk</span>
+                          <span className="text">Envoyer</span>
                         </button>
                       </div>
                     </div>

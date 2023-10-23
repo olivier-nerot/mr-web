@@ -8,13 +8,11 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
-import Header from "@/components/Contact/Header";
-import Info from "@/components/Contact/Info";
 import Form from "@/components/Contact/Form";
 import Footer1 from "@/components/Common/Footer1";
 
 export const metadata = {
-  title: 'Bayone - Contact',
+  title: 'Contact',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -39,8 +37,6 @@ export default function ContactPage() {
         <Menu />
         <div id="smooth-content">
           <main className="main-bg">
-            <Header />
-            <Info />
             <Form />
           </main>
           <Footer1 subBg />
