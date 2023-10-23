@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from 'react';
 //= Static Data
-import data from '@/data/Project/One/works.json';
+import data from '@/data/Project/works.json';
 
 function Works() {
   useEffect(() => {

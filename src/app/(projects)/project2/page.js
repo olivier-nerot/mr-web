@@ -8,11 +8,11 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
-import Header from "@/components/Project/One/Header";
-import TopContent from "@/components/Project/One/TopContent";
-import Works from "@/components/Project/One/Works";
-import BottomContent from "@/components/Project/One/BottomContent";
-import NextProject from "@/components/Project/One/NextProject";
+import Header from "@/components/Project/Header";
+
+import Works from "@/components/Project/Works";
+import BottomContent from "@/components/Project/BottomContent";
+import NextProject from "@/components/Project/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
 export const metadata = {
@@ -46,7 +46,7 @@ export default function ProjectOnePage() {
               <BottomContent />
               <Works />
             </div>
-            <NextProject />
+            <NextProject  url="/project3" />
           </main>
           <Footer1 />
         </div>

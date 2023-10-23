@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NextProject() {
+function NextProject(props) {
   return (
     <section className="next-project section-padding sub-bg">
       <div className="contact-container">
@@ -11,7 +11,7 @@ function NextProject() {
                 <h6 className="sub-title fz-18">Next Project</h6>
                 <div className="inline">
                   <div className="d-flex align-items-center">
-                    <a href="/project2" className="animsition-link fz-70 fw-700 stroke">Projet Suivant</a>
+                    <a href={props.url} className="animsition-link fz-70 fw-700 stroke">Projet Suivant</a>
                     <span className="ml-15">
                       <img src="/assets/imgs/svg-assets/arrow-right-top.svg" alt="" className="icon-img-70" />
                     </span>
