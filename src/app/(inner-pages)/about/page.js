@@ -10,13 +10,10 @@ import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
 import Header from "@/components/About/Header";
 import Intro from "@/components/About/Intro";
-import Video from "@/components/About/Video";
-import Team from "@/components/About/Team";
-import Testimonials from "@/components/About/Testimonials";
 import Footer1 from "@/components/Common/Footer1";
 
 export const metadata = {
-  title: 'Marion Roche - About',
+  title: 'Marion Roche',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -43,9 +40,6 @@ export default function About() {
           <main className="main-bg">
             <Header />
             <Intro />
-            <Video />
-            <Team />
-            <Testimonials />
           </main>
           <Footer1 subBg />
         </div>

@@ -11,7 +11,7 @@ import Menu from "@/components/Common/Menu";
 import Fullscreen from "@/components/Portfolio/Fullscreen";
 
 export const metadata = {
-  title: 'Bayone - Portfolio Fullscreen',
+  title: 'Marion Roche',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",

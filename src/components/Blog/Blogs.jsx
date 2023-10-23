@@ -21,12 +21,12 @@ function Blogs() {
                 <div className="item">
                   <div className="img">
                     <img src={item.image} alt="" />
-                    <span className="date"><strong>{item.date.day}</strong> {item.date.month}</span>
+                    <span className="date"><strong>{item.date.day}</strong> {item.date.month} {item.date.year}</span>
                   </div>
                   <div className="cont">
                     <span className="sub-title mb-15 opacity-8">{item.category}</span>
                     <h4>{item.title}</h4>
-                    <a href={item.link} className="animsition-link more mt-20">Read More</a>
+                    <a href={item.link} className="animsition-link more mt-20">Lire</a>
                   </div>
                 </div>
               </div>

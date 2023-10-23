@@ -1,6 +1,9 @@
 "use client";
 import React from 'react';
 
+//= Static Data
+import data from '@/data/Projects/list.json';
+
 function Menu() {
   function closeMenu() {
     document.querySelector('.hamenu').classList.remove("open");
@@ -44,7 +47,7 @@ function Menu() {
                 </li>
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
-                    <span className="link dmenu" onClick={handleOpenDMenu}><span className="nm">03.</span>Oeuvres </span>
+                    <span className="link dmenu" onClick={handleOpenDMenu}><span className="nm">03.</span>Projets </span>
                   </div>
                   <div className="sub-menu">
                     <ul className="rest">
@@ -57,60 +60,13 @@ function Menu() {
                     <div className="row">
                       <div className="col-md-6">
                         <ul className="rest">
-                          <li>
+                        {data.map(item => (
+                          <li key={item.id}>
                             <div className="o-hidden">
-                              <a href="/project1" className="sub-link animsition-link" onClick={closeMenu}>projet 1</a>
+                              <a href={item.caption.link} className="sub-link animsition-link" onClick={closeMenu}>{item.caption.title} {item.caption.title2}</a>
                             </div>
                           </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/project2" className="sub-link animsition-link" onClick={closeMenu}>projet 2</a>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/project3" className="sub-link animsition-link" onClick={closeMenu}>projet 3</a>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/project4" className="sub-link animsition-link" onClick={closeMenu}>projet 4</a>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/project5" className="sub-link animsition-link" onClick={closeMenu}>projet 5</a>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-md-6">
-                        <ul className="rest">
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/interactive-inline" className="sub-link animsition-link" onClick={closeMenu}>Interactive Inline</a>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/interactive-vertical" className="sub-link animsition-link" onClick={closeMenu}>Interactive Vertical</a>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/portfolio-fixed-text" className="sub-link animsition-link" onClick={closeMenu}>Creative Portfolio</a>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/portfolio-grid" className="sub-link animsition-link" onClick={closeMenu}>Portfolio Grid</a>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="o-hidden">
-                              <a href="/portfolio-grid-classic" className="sub-link animsition-link" onClick={closeMenu}>Portfolio Classic</a>
-                            </div>
-                          </li>
+                        ))}
                         </ul>
                       </div>
                     </div>

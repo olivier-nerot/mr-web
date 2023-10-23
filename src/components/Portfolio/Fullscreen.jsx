@@ -6,7 +6,7 @@ import { Navigation, Autoplay, Parallax, Pagination, Mousewheel } from 'swiper';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 //= Static Data
-import data from '@/data/Portfolio/fullscreen.json';
+import data from '@/data/Projects/list.json';
 
 const swiperOptions = {
   modules: [Navigation, Autoplay, Parallax, Pagination, Mousewheel],
