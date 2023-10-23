@@ -13,8 +13,8 @@ function Header() {
         <div className="row">
           <div className="col-lg-6 valign">
             <div className="full-width mb-30">
-              <h1 className="fz-60">Artboard Studio</h1>
-              <p>We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities.</p>
+              <h1 className="fz-60">NOM DU PROJET</h1>
+              <p>Description du projet</p>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1">
@@ -22,26 +22,26 @@ function Header() {
               <div className="row">
                 <div className="col-md-6">
                   <div className="item mb-30">
-                    <span className="opacity-8 mb-5">Category :</span>
-                    <h6>Development</h6>
+                    <span className="opacity-8 mb-5">Categorie :</span>
+                    <h6>CATEGORIE</h6>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="item mb-30">
-                    <span className="opacity-8 mb-5">Client :</span>
-                    <h6>Envato</h6>
+                    <span className="opacity-8 mb-5">Partenaires :</span>
+                    <h6>LTBL</h6>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="item mb-30">
-                    <span className="opacity-8 mb-5">Start Date :</span>
-                    <h6>7 August 2021</h6>
+                    <span className="opacity-8 mb-5">Période :</span>
+                    <h6>2018-2023</h6>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="item">
-                    <span className="opacity-8 mb-5">Designer :</span>
-                    <h6>Ui-ThemeZ</h6>
+                    <span className="opacity-8 mb-5">Prix :</span>
+                    <h6>GÜP!</h6>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,6 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-img mt-100" data-background="/assets/imgs/works/projects/0/1.jpg"></div>
     </header>
   )
 }

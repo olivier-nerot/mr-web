@@ -1,7 +1,7 @@
 [
   {
-    "id": 1,
-    "background": "/assets/imgs/works/full/bg1.jpg",
+    "id": 0,
+    "background": "/assets/imgs/works/full/bgmr.jpg",
     "caption": {
       "subTitle": "Digital Artist",
       "title": "Marion Roche",
@@ -9,19 +9,19 @@
     }
   },
   {
-    "id": 2,
-    "background": "/assets/imgs/works/full/bg2.png",
+    "id": 1,
+    "background": "/assets/imgs/works/full/bg1.png",
     "caption": {
       "year": "2023",
       "subTitle": "Installation pour dispositif de réalité virtuelle",
       "title": "Des marées de mémoires",
-      "link": "/project3"
+      "link": "/project1"
     },
-    "videoSource": "/assets/imgs/works/full/bg2.mp4"
+    "videoSource": "/assets/imgs/works/full/bg1.mp4"
   },
   {
-    "id": 3,
-    "background": "/assets/imgs/works/full/bg4.jpg",
+    "id": 2,
+    "background": "/assets/imgs/works/full/bg2.jpg",
     "caption": {
       "year": "2021 - en cours",
       "subTitle": "Sculpture",
@@ -30,117 +30,117 @@
     }
   },
   {
-    "id": 4,
-    "background": "/assets/imgs/works/full/bg14.jpg",
+    "id": 3,
+    "background": "/assets/imgs/works/full/bg3.jpg",
     "caption": {
       "year": "2023",
       "subTitle": "Installations & Intelligence Artificielle (AI)",
       "title": "enfAIr & divAIn",
-      "link": "/project2"
+      "link": "/project3"
     }
   },
   {
-    "id": 5,
-    "background": "/assets/imgs/works/full/bg3.png",
+    "id": 4,
+    "background": "/assets/imgs/works/full/bg4.png",
     "caption": {
       "year": "2022",
       "subTitle": "Installation A/V pour DEAUM",
       "title": "Synergetics",
-      "link": "/project3"
+      "link": "/project4"
     },
-    "videoSource": "/assets/imgs/works/full/bg3.mov"
+    "videoSource": "/assets/imgs/works/full/bg4.mov"
   },
   {
-    "id": 6,
+    "id": 5,
     "background": "/assets/imgs/works/full/bg5.jpg",
     "caption": {
       "year": "2021",
       "subTitle": "Installation pour dispositif de réalité virtuelle",
       "title": "Pharmakon",
       "title2": "Le charme de la discrétisation",
-      "link": "/project3"
+      "link": "/project5"
     }
   },
   {
-    "id": 7,
+    "id": 6,
     "background": "/assets/imgs/works/full/bg6.png",
     "caption": {
       "year": "2021",
       "subTitle": "Installation A/V pour DEAUM",
       "title": "Insight",
-      "link": "/project3"
+      "link": "/project6"
     },
     "videoSource": "/assets/imgs/works/full/bg6.mov"
   },
   {
-    "id": 8,
+    "id": 7,
     "background": "/assets/imgs/works/full/bg7.jpg",
     "caption": {
       "year": "2020",
       "subTitle": "Installation A/V interactive",
       "title": "Rien n'aura eu lieu, que le lieu,",
       "title2": "excepté peut-être une constellation",
-      "link": "/project1"
+      "link": "/project7"
+    }
+  },
+  {
+    "id": 8,
+    "background": "/assets/imgs/works/full/bg8.jpg",
+    "caption": {
+      "year": "2020",
+      "subTitle": "Performance A/V sous dôme",
+      "title": "Synapse",
+      "link": "/project8"
     }
   },
   {
     "id": 9,
     "background": "/assets/imgs/works/full/bg9.jpg",
     "caption": {
-      "year": "2020",
-      "subTitle": "Performance A/V sous dôme",
-      "title": "Synapse",
-      "link": "/project2"
+      "year": "2019",
+      "subTitle": "Scuplpture",
+      "title": "Limen",
+      "link": "/project9"
     }
   },
   {
     "id": 10,
-    "background": "/assets/imgs/works/full/bg8.jpg",
-    "caption": {
-      "year": "2019",
-      "subTitle": "Scuplpture",
-      "title": "Limen",
-      "link": "/project2"
-    }
-  },
-  {
-    "id": 11,
     "background": "/assets/imgs/works/full/bg10.jpg",
     "caption": {
       "year": "2018",
       "subTitle": "Sculpture",
       "title": "Strati",
-      "link": "/project2"
+      "link": "/project10"
     }
   },
   {
-    "id": 12,
+    "id": 11,
     "background": "/assets/imgs/works/full/bg11.jpg",
     "caption": {
       "year": "2014-2018",
       "subTitle": "Sculptures",
       "title": "Mythopoeïa",
-      "link": "/project2"
+      "link": "/project11"
     }
   },
   {
-    "id": 13,
+    "id": 12,
     "background": "/assets/imgs/works/full/bg12.jpg",
     "caption": {
       "year": "... - 2023",
       "subTitle": "Design",
       "title": "Objets & mobiliers",
-      "link": "/project2"
+      "link": "/project12"
     }
   },
   {
-    "id": 14,
+    "id": 13,
     "background": "/assets/imgs/works/full/bg13.jpg",
     "caption": {
       "year": "... - 2023",
       "subTitle": "Composition",
       "title": "Projets musicaux & sonores",
-      "link": "/project2"
+      "link": "/project13"
     }
   }
 ]

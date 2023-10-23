@@ -16,7 +16,7 @@ import NextProject from "@/components/Project/One/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
 export const metadata = {
-  title: 'Bayone - Project One',
+  title: 'Project',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -43,9 +43,8 @@ export default function ProjectOnePage() {
           <main className="main-bg">
             <div className="main-box main-bg ontop">
               <Header />
-              <TopContent />
-              <Works />
               <BottomContent />
+              <Works />
             </div>
             <NextProject />
           </main>

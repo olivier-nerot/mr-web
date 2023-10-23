@@ -7,9 +7,14 @@ function BottomContent() {
         <div className="row justify-content-center">
           <div className="col-lg-7">
             <div className="text">
-              <h2 className="mb-50">The Solution</h2>
-              <h5 className="mb-30 fw-400">Global concrete manufacturers engaging with us to develop specific testing programms.</h5>
-              <p className="fz-18">Show your portfolio in a stylish and modern design. The template has a clean, professional code, the site is fully adaptive and unique. This is a template for those who appreciate minimalism and convenience. Embed videos, images, and a slider.</p>
+              <h2 className="mb-20">TITRE</h2>
+              <h5 className="mb-10 fw-400">Description et explications.</h5>
+              <p className="fz-18">Et tout ça !</p>
+            </div>
+            <div className="text">
+              <h2 className="mb-20 mt-40">TITRE</h2>
+              <h5 className="mb-10 fw-400">Description et explications.</h5>
+              <p className="fz-18">Et tout ça !</p>
             </div>
           </div>
         </div>

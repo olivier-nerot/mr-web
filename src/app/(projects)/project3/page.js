@@ -8,16 +8,15 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
-import Header from "@/components/Project/Three/Header";
-import TopContent from "@/components/Project/Three/TopContent";
-import ImageColumn from "@/components/Project/Three/ImageColumn";
-import BottomContent from "@/components/Project/Three/BottomContent";
-import BottomImage from "@/components/Project/Three/BottomImage";
-import NextProject from "@/components/Project/Three/NextProject";
+import Header from "@/components/Project/One/Header";
+import TopContent from "@/components/Project/One/TopContent";
+import Works from "@/components/Project/One/Works";
+import BottomContent from "@/components/Project/One/BottomContent";
+import NextProject from "@/components/Project/One/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
 export const metadata = {
-  title: 'Bayone - Project Three',
+  title: 'Project',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -30,7 +29,7 @@ export const metadata = {
   }
 }
 
-export default function ProjectThreePage() {
+export default function ProjectOnePage() {
   return (
     <body className="main-bg">
       <LoadingScreen />
@@ -44,10 +43,8 @@ export default function ProjectThreePage() {
           <main className="main-bg">
             <div className="main-box main-bg ontop">
               <Header />
-              <TopContent />
-              <ImageColumn />
               <BottomContent />
-              <BottomImage />
+              <Works />
             </div>
             <NextProject />
           </main>

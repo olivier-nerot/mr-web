@@ -34,44 +34,17 @@ function Menu() {
               <ul className="main-menu rest">
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
-                    <span className="link dmenu" onClick={handleOpenDMenu}><span className="nm">01.</span>Home </span>
-                  </div>
-                  <div className="sub-menu">
-                    <ul className="rest">
-                      <li>
-                        <div className="o-hidden">
-                          <span className="sub-link back" onClick={handleCloseDMenu}><i className="pe-7s-angle-left"></i> Go Back</span>
-                        </div>
-                      </li>
-                    </ul>
-                    <ul className="rest">
-                      <li>
-                        <div className="o-hidden">
-                          <a href="/creative-agency" className="sub-link animsition-link" onClick={closeMenu}>Creative Agency</a>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="o-hidden">
-                          <a href="/creative-portfolio"
-                            className="sub-link animsition-link" onClick={closeMenu}>Creative Portfolio</a>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="o-hidden">
-                          <a href="/landing" className="sub-link animsition-link" onClick={closeMenu}>Home Landing</a>
-                        </div>
-                      </li>
-                    </ul>
+                    <a href="/" className="link animsition-link" onClick={closeMenu}><span className="nm">01.</span>Accueil</a>
                   </div>
                 </li>
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
-                    <a href="/about" className="link animsition-link" onClick={closeMenu}><span className="nm">02.</span>About</a>
+                    <a href="/about" className="link animsition-link" onClick={closeMenu}><span className="nm">02.</span>Marion Roche</a>
                   </div>
                 </li>
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
-                    <span className="link dmenu" onClick={handleOpenDMenu}><span className="nm">03.</span>Portfolio </span>
+                    <span className="link dmenu" onClick={handleOpenDMenu}><span className="nm">03.</span>Oeuvres </span>
                   </div>
                   <div className="sub-menu">
                     <ul className="rest">
@@ -86,27 +59,27 @@ function Menu() {
                         <ul className="rest">
                           <li>
                             <div className="o-hidden">
-                              <a href="/fullscreen" className="sub-link animsition-link" onClick={closeMenu}>Fullscreen Slider</a>
+                              <a href="/project1" className="sub-link animsition-link" onClick={closeMenu}>projet 1</a>
                             </div>
                           </li>
                           <li>
                             <div className="o-hidden">
-                              <a href="/carousel-slider" className="sub-link animsition-link" onClick={closeMenu}>Carousel Slider</a>
+                              <a href="/project2" className="sub-link animsition-link" onClick={closeMenu}>projet 2</a>
                             </div>
                           </li>
                           <li>
                             <div className="o-hidden">
-                              <a href="/half-slider" className="sub-link animsition-link" onClick={closeMenu}>Creative Slider</a>
+                              <a href="/project3" className="sub-link animsition-link" onClick={closeMenu}>projet 3</a>
                             </div>
                           </li>
                           <li>
                             <div className="o-hidden">
-                              <a href="/interactive-full" className="sub-link animsition-link" onClick={closeMenu}>Interactive Full</a>
+                              <a href="/project4" className="sub-link animsition-link" onClick={closeMenu}>projet 4</a>
                             </div>
                           </li>
                           <li>
                             <div className="o-hidden">
-                              <a href="/interactive-center" className="sub-link animsition-link" onClick={closeMenu}>Interactive Center</a>
+                              <a href="/project5" className="sub-link animsition-link" onClick={closeMenu}>projet 5</a>
                             </div>
                           </li>
                         </ul>
@@ -145,7 +118,7 @@ function Menu() {
                 </li>
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
-                    <a href="/blog" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Stories</a>
+                    <a href="/blog" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Actualité</a>
                   </div>
                 </li>
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -159,7 +132,7 @@ function Menu() {
           <div className="col-lg-4 valign">
             <div className="cont-info">
               <div className="item mb-50">
-                <h6 className="text-u fw-600 mb-20">How to Connect</h6>
+                <h6 className="text-u fw-600 mb-20">e-mail</h6>
                 <p className="fw-400 fz-18">contact@marionroche.com</p>
               </div>
               <div className="bottom">
