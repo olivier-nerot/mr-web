@@ -1,6 +1,4 @@
 import React from 'react';
-//= Static Data
-import data from '@/data/About/brands.json';
 
 function Video() {
   return (
