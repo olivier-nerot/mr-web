@@ -63,7 +63,7 @@ function Menu() {
                         {data.map(item => (
                           <li key={item.id}>
                             <div className="o-hidden">
-                              <a href={item.caption.link} className="sub-link animsition-link" onClick={closeMenu}>{item.caption.title} {item.caption.title2}</a>
+                              <a href={`/project?number=${item.id}`} className="sub-link animsition-link" onClick={closeMenu}>{item.caption.title} {item.caption.title2}</a>
                             </div>
                           </li>
                         ))}

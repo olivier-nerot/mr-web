@@ -4783,51 +4783,6 @@ footer .logo img {
   height: 100%;
 }
 
-.header-project1 {
-  padding: 180px 0 0;
-}
-
-.header-project1 .bg-img {
-  height: 540px;
-}
-
-.header-project2 .project2 {
-  width: 130%;
-  margin-left: -15%;
-}
-
-.header-project2 .project2 .img {
-  height: 75vh;
-  min-height: 500px;
-}
-
-.header-project2 .project2 .img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center center;
-  object-position: center center;
-}
-
-.header-project3 {
-  min-height: 70vh;
-  padding: 220px 0 120px;
-}
-
-.header-project3:before {
-  background: -webkit-gradient(linear, left bottom, left top, from(#0c0c0c), to(transparent));
-  background: -webkit-linear-gradient(bottom, #0c0c0c, transparent);
-  background: -o-linear-gradient(bottom, #0c0c0c, transparent);
-  background: linear-gradient(to top, #0c0c0c, transparent);
-  opacity: 1;
-}
-
-.header-project4 {
-  min-height: 100vh;
-  padding: 220px 0 80px;
-}
-
 .header-blog {
   padding: 220px 0 0;
 }

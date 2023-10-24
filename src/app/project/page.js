@@ -15,6 +15,8 @@ import BottomContent from "@/components/Project/BottomContent";
 import NextProject from "@/components/Project/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
+import projects from '@/data/Projects/list.json';
+
 export const metadata = {
   title: 'Project',
   icons: {
@@ -29,34 +31,37 @@ export const metadata = {
   }
 }
 
-const images = [
-  {
-    "id": 1,
-    "image": "/assets/imgs/works/projects/0/2.jpg"
-  },
-  {
-    "id": 2,
-    "image": "/assets/imgs/works/projects/0/3.jpg"
-  },
-  {
-    "id": 3,
-    "image": "/assets/imgs/works/projects/0/4.jpg"
-  },
-  {
-    "id": 4,
-    "image": "/assets/imgs/works/projects/0/5.jpg"
-  },
-  {
-    "id": 5,
-    "image": "/assets/imgs/works/projects/0/6.jpg"
-  },
-  {
-    "id": 6,
-    "image": "/assets/imgs/works/projects/0/7.jpg"
-  }
-]
+// const images = [
+//   {
+//     "id": 1,
+//     "image": "/assets/imgs/works/projects/0/2.jpg"
+//   },
+//   {
+//     "id": 2,
+//     "image": "/assets/imgs/works/projects/0/3.jpg"
+//   },
+//   {
+//     "id": 3,
+//     "image": "/assets/imgs/works/projects/0/4.jpg"
+//   },
+//   {
+//     "id": 4,
+//     "image": "/assets/imgs/works/projects/0/5.jpg"
+//   },
+//   {
+//     "id": 5,
+//     "image": "/assets/imgs/works/projects/0/6.jpg"
+//   },
+//   {
+//     "id": 6,
+//     "image": "/assets/imgs/works/projects/0/7.jpg"
+//   }
+// ]
 
-export default function ProjectOnePage() {
+export default function ProjectOnePage({searchParams}) {
+  const id = parseInt(searchParams.number)-1
+  const nextid = (id < projects.length) ? id+1 : 1
+
   return (
     <body className="main-bg">
       <LoadingScreen />
@@ -69,11 +74,20 @@ export default function ProjectOnePage() {
         <div id="smooth-content">
           <main className="main-bg">
             <div className="main-box main-bg ontop">
-              <Header />
-              <BottomContent />
-              <Works images={images} />
+              <Header 
+                name = {projects[id].caption.title}
+                desc = {projects[id].caption.subtitle}
+                category = "Installation VR"
+                date = {projects[id].caption.year}
+                partner = ''
+                award = ''
+              />
+              <BottomContent 
+                content = {JSON.stringify(projects)}
+              />
+              <Works images={projects[id].images} />
             </div>
-            <NextProject  url="/project10" />
+            <NextProject url={`/project?number=${nextid}`}/>
           </main>
           <Footer1 />
         </div>

@@ -1,23 +1,39 @@
 [
   {
-    "id": 0,
-    "background": "/assets/imgs/works/full/bgmr.jpg",
-    "caption": {
-      "subTitle": "Digital Artist",
-      "title": "Marion Roche",
-      "link": "/about"
-    }
-  },
-  {
     "id": 1,
     "background": "/assets/imgs/works/full/bg1.png",
     "caption": {
       "year": "2021 - en cours",
       "subTitle": "Installation pour dispositif de réalité virtuelle",
-      "title": "Des marées de mémoires",
-      "link": "/project1"
+      "title": "Des marées de mémoires"
     },
-    "videoSource": "/assets/imgs/works/full/bg1.mp4"
+    "videoSource": "/assets/imgs/works/full/bg1.mp4",
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 2,
@@ -25,9 +41,34 @@
     "caption": {
       "year": "2023",
       "subTitle": "Sculpture",
-      "title": "Je viens de te voir en rêve",
-      "link": "/project2"
-    }
+      "title": "Je viens de te voir en rêve"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 3,
@@ -35,9 +76,34 @@
     "caption": {
       "year": "2023",
       "subTitle": "Installations & Intelligence Artificielle (AI)",
-      "title": "enfAIr & divAIn",
-      "link": "/project3"
-    }
+      "title": "enfAIr & divAIn"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 4,
@@ -45,10 +111,35 @@
     "caption": {
       "year": "2022",
       "subTitle": "Installation A/V pour DEAUM",
-      "title": "Synergetics",
-      "link": "/project4"
+      "title": "Synergetics"
     },
-    "videoSource": "/assets/imgs/works/full/bg4.mov"
+    "videoSource": "/assets/imgs/works/full/bg4.mov",
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 5,
@@ -57,9 +148,34 @@
       "year": "2021",
       "subTitle": "Installation pour dispositif de réalité virtuelle",
       "title": "Pharmakon",
-      "title2": "Le charme de la discrétisation",
-      "link": "/project5"
-    }
+      "title2": "Le charme de la discrétisation"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 6,
@@ -67,10 +183,35 @@
     "caption": {
       "year": "2021",
       "subTitle": "Installation A/V pour DEAUM",
-      "title": "Insight",
-      "link": "/project6"
+      "title": "Insight"
     },
-    "videoSource": "/assets/imgs/works/full/bg6.mov"
+    "videoSource": "/assets/imgs/works/full/bg6.mov",
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 7,
@@ -79,9 +220,34 @@
       "year": "2020",
       "subTitle": "Installation A/V interactive",
       "title": "Rien n'aura eu lieu, que le lieu,",
-      "title2": "excepté peut-être une constellation",
-      "link": "/project7"
-    }
+      "title2": "excepté peut-être une constellation"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 8,
@@ -89,19 +255,69 @@
     "caption": {
       "year": "2020",
       "subTitle": "Performance A/V sous dôme",
-      "title": "Synapse",
-      "link": "/project8"
-    }
+      "title": "Synapse"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 9,
     "background": "/assets/imgs/works/full/bg9.jpg",
     "caption": {
       "year": "2019",
-      "subTitle": "Scuplpture",
-      "title": "Limen",
-      "link": "/project9"
-    }
+      "subTitle": "Sculpture",
+      "title": "Limen"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 10,
@@ -109,9 +325,34 @@
     "caption": {
       "year": "2018",
       "subTitle": "Sculpture",
-      "title": "Strati",
-      "link": "/project10"
-    }
+      "title": "Strati"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 11,
@@ -119,9 +360,34 @@
     "caption": {
       "year": "2014-2018",
       "subTitle": "Sculptures",
-      "title": "Mythopoeïa",
-      "link": "/project11"
-    }
+      "title": "Mythopoeïa"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 12,
@@ -129,9 +395,34 @@
     "caption": {
       "year": "... - 2023",
       "subTitle": "Design",
-      "title": "Objets & mobiliers",
-      "link": "/project12"
-    }
+      "title": "Objets & mobiliers"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   },
   {
     "id": 13,
@@ -139,8 +430,33 @@
     "caption": {
       "year": "... - 2023",
       "subTitle": "Composition",
-      "title": "Projets musicaux & sonores",
-      "link": "/project13"
-    }
+      "title": "Projets musicaux & sonores"
+    },
+    "images" : [
+      {
+        "id": 1,
+        "image": "/assets/imgs/works/projects/0/2.jpg"
+      },
+      {
+        "id": 2,
+        "image": "/assets/imgs/works/projects/0/3.jpg"
+      },
+      {
+        "id": 3,
+        "image": "/assets/imgs/works/projects/0/4.jpg"
+      },
+      {
+        "id": 4,
+        "image": "/assets/imgs/works/projects/0/5.jpg"
+      },
+      {
+        "id": 5,
+        "image": "/assets/imgs/works/projects/0/6.jpg"
+      },
+      {
+        "id": 6,
+        "image": "/assets/imgs/works/projects/0/7.jpg"
+      }
+    ]
   }
 ]

@@ -6,7 +6,20 @@ import { Navigation, Autoplay, Parallax, Pagination, Mousewheel } from 'swiper';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 //= Static Data
-import data from '@/data/Projects/list.json';
+import projects from '@/data/Projects/list.json';
+
+const data = [
+  {
+    "id": 0,
+    "link": "/about",
+    "background": "/assets/imgs/works/full/bgmr.jpg",
+    "caption": {
+      "subTitle": "Artiste Digital",
+      "title": "Marion Roche",
+    }
+  },
+  ...projects
+]
 
 const swiperOptions = {
   modules: [Navigation, Autoplay, Parallax, Pagination, Mousewheel],
@@ -62,7 +75,7 @@ function Fullscreen() {
                       <div className="caption">
                         <h6 className="sub-title mb-30" data-swiper-parallax="-1000">{item.caption.year} <br /> {item.caption.subTitle}</h6>
                         <h1>
-                          <a href={item.caption.link} className="animsition-link">
+                          <a href={item.link || `/project?number=${item.id}`} className="animsition-link">
                             <span data-swiper-parallax="-2000">{item.caption.title}</span>
                             <span data-swiper-parallax="-2000">{item.caption.title2}</span>
                           </a>
