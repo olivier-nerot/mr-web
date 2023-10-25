@@ -75,7 +75,7 @@ function Fullscreen() {
                       <div className="caption">
                         <h6 className="sub-title mb-30" data-swiper-parallax="-1000">{item.caption.year} <br /> {item.caption.subTitle}</h6>
                         <h1>
-                          <a href={item.link || `/project?number=${item.id}`} className="animsition-link">
+                          <a href={item.link || `/project/${item.id}`} className="animsition-link">
                             <span data-swiper-parallax="-2000">{item.caption.title}</span>
                             <span data-swiper-parallax="-2000">{item.caption.title2}</span>
                           </a>
