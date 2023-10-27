@@ -331,6 +331,10 @@ figure {
   background: #e9e8e3;
 }
 
+.text .p {
+  margin-bottom: 20px;
+}
+
 .text-dark {
   color: #0c0c0c;
 }

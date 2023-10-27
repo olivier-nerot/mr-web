@@ -13,6 +13,7 @@ import Header from "@/components/Project/Header";
 
 import Works from "@/components/Project/Works";
 import Content from "@/components/Project/Content";
+import Video from "@/components/Project/Video";
 import NextProject from "@/components/Project/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
@@ -62,9 +63,9 @@ export default function ProjectOnePage({params}) {
                 partner = {post.frontmatter.partner}
                 award = {post.frontmatter.award}
               />
-              <Content 
-                content = {post.content}
-              />
+              <Content content = {post.content} />
+              {post.frontmatter.video ?<Video url = {post.frontmatter.video} /> : '' }
+              {post.frontmatter.video2 ? <Video url = {post.frontmatter.video2} /> : '' }
               <Works images={post.frontmatter.images} />
             </div>
             <NextProject url={`/project/${nextid}`}/>
