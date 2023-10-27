@@ -3610,7 +3610,6 @@ body.loaded {
   -o-transition: all 1s;
   transition: all 1s;
   padding: 10px 0;
-  white-space: nowrap;
 }
 
 .hamenu .menu-links .main-menu .sub-menu li .sub-link:hover {

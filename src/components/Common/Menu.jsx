@@ -58,9 +58,20 @@ function Menu() {
                       </li>
                     </ul>
                     <div className="row">
-                      <div className="col-md-6">
+                      <div className="col-md-6 ww">
                         <ul className="rest">
-                        {data.map(item => (
+                        {data.slice(0, 7).map(item => (
+                          <li key={item.id}>
+                            <div className="o-hidden">
+                              <a href={`/project/${item.id}`} className="sub-link animsition-link" onClick={closeMenu}>{item.caption.title} {item.caption.title2}</a>
+                            </div>
+                          </li>
+                        ))}
+                        </ul>
+                      </div>
+                      <div className="col-md-6 ww">
+                        <ul className="rest">
+                        {data.slice(7, 14).map(item => (
                           <li key={item.id}>
                             <div className="o-hidden">
                               <a href={`/project/${item.id}`} className="sub-link animsition-link" onClick={closeMenu}>{item.caption.title} {item.caption.title2}</a>
@@ -89,19 +100,19 @@ function Menu() {
             <div className="cont-info">
               <div className="item mb-50">
                 <h6 className="text-u fw-600 mb-20">e-mail</h6>
-                <p className="fw-400 fz-18">contact@marionroche.com</p>
+                <p className="fw-400 fz-18"><a href='mailto://contact@marionroche.com'>contact@marionroche.com</a></p>
               </div>
               <div className="bottom">
                 <h6 className="text-u fw-600 mb-20">Sur les réseaux</h6>
                 <ul className="rest social-text d-flex fz-13">
                   <li className="mr-20">
-                    <a href="/#0" className="hover-this"><span className="hover-anim">Facebook</span></a>
+                    <a href="/#0" target="_blank" className="hover-this"><span className="hover-anim">Facebook</span></a>
                   </li>
                   <li className="mr-20">
-                    <a href="https://linkedin.com/marion.roche" className="hover-this"><span className="hover-anim">LinkedIn</span></a>
+                    <a href="https://linkedin.com/marion.roche" target="_blank" className="hover-this"><span className="hover-anim">LinkedIn</span></a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/marionroche_kerta" className="hover-this"><span className="hover-anim">Instagram</span></a>
+                    <a href="https://instagram.com/marionroche_kerta" target="_blank" className="hover-this"><span className="hover-anim">Instagram</span></a>
                   </li>
                 </ul>
               </div>

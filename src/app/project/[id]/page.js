@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { getSinglePost } from "/src/app/utils.js"
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -11,14 +12,14 @@ import Menu from "@/components/Common/Menu";
 import Header from "@/components/Project/Header";
 
 import Works from "@/components/Project/Works";
-import BottomContent from "@/components/Project/BottomContent";
+import Content from "@/components/Project/Content";
 import NextProject from "@/components/Project/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
 import projects from '@/data/Projects/list.json';
 
 export const metadata = {
-  title: 'Project',
+  title: 'projet',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -36,9 +37,10 @@ export function generateStaticParams() {
 }
 
 export default function ProjectOnePage({params}) {
-  console.log('params.id', params.id);
-  const id = parseInt(params.id)-1
+  const id = parseInt(params.id)
   const nextid = (id < projects.length) ? id+1 : 1
+
+  const post = getSinglePost(id, 'src/data/Projects')
 
   return (
     <body className="main-bg">
@@ -53,17 +55,17 @@ export default function ProjectOnePage({params}) {
           <main className="main-bg">
             <div className="main-box main-bg ontop">
               <Header 
-                name = {projects[id].caption.title}
-                desc = {projects[id].caption.subtitle}
-                category = "Installation VR"
-                date = {projects[id].caption.year}
-                partner = ''
-                award = ''
+                name = {post.frontmatter.title}
+                desc = {post.frontmatter.subtitle}
+                category = {post.frontmatter.category}
+                date = {post.frontmatter.year}
+                partner = {post.frontmatter.partner}
+                award = {post.frontmatter.award}
               />
-              <BottomContent 
-                content = {JSON.stringify(projects)}
+              <Content 
+                content = {post.content}
               />
-              <Works images={projects[id].images} />
+              <Works images={post.frontmatter.images} />
             </div>
             <NextProject url={`/project/${nextid}`}/>
           </main>

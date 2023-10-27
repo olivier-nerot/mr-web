@@ -1,13 +1,14 @@
 [
   {
     "id": 1,
-    "background": "/assets/imgs/works/full/bg1.png",
+    "background": "/assets/imgs/projects/bg1.png",
     "caption": {
       "year": "2021 - en cours",
       "subTitle": "Installation pour dispositif de réalité virtuelle",
       "title": "Des marées de mémoires"
     },
-    "videoSource": "/assets/imgs/works/full/bg1.mp4",
+    "content": "<h2 className='mb-20'>TITRE</h2><h5 className='mb-10 fw-400'>Description et explications.</h5><p className='fz-18'>Et tout ça !</p>",
+    "videoSource": "/assets/imgs/projects/bg1.mp4",
     "images" : [
       {
         "id": 1,
@@ -37,7 +38,7 @@
   },
   {
     "id": 2,
-    "background": "/assets/imgs/works/full/bg2.jpg",
+    "background": "/assets/imgs/projects/bg2.jpg",
     "caption": {
       "year": "2023",
       "subTitle": "Sculpture",
@@ -72,7 +73,7 @@
   },
   {
     "id": 3,
-    "background": "/assets/imgs/works/full/bg3.jpg",
+    "background": "/assets/imgs/projects/bg3.jpg",
     "caption": {
       "year": "2023",
       "subTitle": "Installations & Intelligence Artificielle (AI)",
@@ -107,13 +108,13 @@
   },
   {
     "id": 4,
-    "background": "/assets/imgs/works/full/bg4.png",
+    "background": "/assets/imgs/projects/bg4.png",
     "caption": {
       "year": "2022",
       "subTitle": "Installation A/V pour DEAUM",
       "title": "Synergetics"
     },
-    "videoSource": "/assets/imgs/works/full/bg4.mov",
+    "videoSource": "/assets/imgs/projects/bg4.mov",
     "images" : [
       {
         "id": 1,
@@ -143,7 +144,7 @@
   },
   {
     "id": 5,
-    "background": "/assets/imgs/works/full/bg5.jpg",
+    "background": "/assets/imgs/projects/bg5.jpg",
     "caption": {
       "year": "2021",
       "subTitle": "Installation pour dispositif de réalité virtuelle",
@@ -179,13 +180,13 @@
   },
   {
     "id": 6,
-    "background": "/assets/imgs/works/full/bg6.png",
+    "background": "/assets/imgs/projects/bg6.png",
     "caption": {
       "year": "2021",
       "subTitle": "Installation A/V pour DEAUM",
       "title": "Insight"
     },
-    "videoSource": "/assets/imgs/works/full/bg6.mov",
+    "videoSource": "/assets/imgs/projects/bg6.mov",
     "images" : [
       {
         "id": 1,
@@ -215,7 +216,7 @@
   },
   {
     "id": 7,
-    "background": "/assets/imgs/works/full/bg7.jpg",
+    "background": "/assets/imgs/projects/bg7.jpg",
     "caption": {
       "year": "2020",
       "subTitle": "Installation A/V interactive",
@@ -251,7 +252,7 @@
   },
   {
     "id": 8,
-    "background": "/assets/imgs/works/full/bg8.jpg",
+    "background": "/assets/imgs/projects/bg8.jpg",
     "caption": {
       "year": "2020",
       "subTitle": "Performance A/V sous dôme",
@@ -286,7 +287,7 @@
   },
   {
     "id": 9,
-    "background": "/assets/imgs/works/full/bg9.jpg",
+    "background": "/assets/imgs/projects/bg9.jpg",
     "caption": {
       "year": "2019",
       "subTitle": "Sculpture",
@@ -321,7 +322,7 @@
   },
   {
     "id": 10,
-    "background": "/assets/imgs/works/full/bg10.jpg",
+    "background": "/assets/imgs/projects/bg10.jpg",
     "caption": {
       "year": "2018",
       "subTitle": "Sculpture",
@@ -356,7 +357,7 @@
   },
   {
     "id": 11,
-    "background": "/assets/imgs/works/full/bg11.jpg",
+    "background": "/assets/imgs/projects/bg11.jpg",
     "caption": {
       "year": "2014-2018",
       "subTitle": "Sculptures",
@@ -391,7 +392,7 @@
   },
   {
     "id": 12,
-    "background": "/assets/imgs/works/full/bg12.jpg",
+    "background": "/assets/imgs/projects/bg12.jpg",
     "caption": {
       "year": "... - 2023",
       "subTitle": "Design",
@@ -426,7 +427,7 @@
   },
   {
     "id": 13,
-    "background": "/assets/imgs/works/full/bg13.jpg",
+    "background": "/assets/imgs/projects/bg13.jpg",
     "caption": {
       "year": "... - 2023",
       "subTitle": "Composition",

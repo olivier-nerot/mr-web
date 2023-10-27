@@ -12,7 +12,7 @@ const data = [
   {
     "id": 0,
     "link": "/about",
-    "background": "/assets/imgs/works/full/bgmr.jpg",
+    "background": "/assets/imgs/projects/bgmr.jpg",
     "caption": {
       "subTitle": "Artiste Digital",
       "title": "Marion Roche",

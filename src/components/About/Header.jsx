@@ -14,7 +14,7 @@ function Header() {
         </div>
       </div>
       <div className="img mt-80" data-overlay-dark="4">
-        <img src="/assets/imgs/works/full/bgmr.jpg" alt="" />
+        <img src="/assets/imgs/projects/bgmr.jpg" alt="" />
       </div>
     </header>
   )

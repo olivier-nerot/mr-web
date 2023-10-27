@@ -1,5 +1,4 @@
 import Script from "next/script";
-import { getSinglePost } from "/src/app/utils.js"
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -9,12 +8,17 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
-import Header from "@/components/About/Header";
-import Intro from "@/components/About/Intro";
+import Header from "@/components/Project/Header";
+
+import Works from "@/components/Project/Works";
+import Content from "@/components/Project/Content";
+import NextProject from "@/components/Project/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
+import projects from '@/data/Projects/list.json';
+
 export const metadata = {
-  title: 'Marion Roche',
+  title: 'projet',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -27,8 +31,13 @@ export const metadata = {
   }
 }
 
-export default function About() {
-  const bio = getSinglePost('bio', 'src/data/About')
+export function generateStaticParams() {
+  return projects.map((p) => {return {id:p.id.toString()}})
+}
+
+export default function ProjectOnePage({params}) {
+  const id = parseInt(params.id)-1
+  const nextid = (id < projects.length) ? id+1 : 1
 
   return (
     <body className="main-bg">
@@ -41,16 +50,30 @@ export default function About() {
         <Menu />
         <div id="smooth-content">
           <main className="main-bg">
-            <Header />
-            <Intro content = {bio.content} />
+            <div className="main-box main-bg ontop">
+              <Header 
+                name = {projects[id].caption.title}
+                desc = {projects[id].caption.subtitle}
+                category = {projects[id].caption.category}
+                date = {projects[id].caption.year}
+                partner = {projects[id].caption.partner}
+                award = {projects[id].caption.award}
+              />
+              <Content 
+                content = {projects[id].content}
+              />
+              <Works images={projects[id].images} />
+            </div>
+            <NextProject url={`/project/${nextid}`}/>
           </main>
-          <Footer1 subBg />
+          <Footer1 />
         </div>
       </div>
 
+
       <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/isotope.pkgd.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/wow.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/ScrollSmoother.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/ScrollTrigger.min.js" strategy="beforeInteractive" />
