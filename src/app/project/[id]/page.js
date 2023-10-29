@@ -56,8 +56,9 @@ export default function ProjectOnePage({params}) {
           <main className="main-bg">
             <div className="main-box main-bg ontop">
               <Header 
-                name = {post.frontmatter.title}
-                desc = {post.frontmatter.subtitle}
+                title = {post.frontmatter.title}
+                subtitle = {post.frontmatter.subtitle}
+                desc = {post.frontmatter.description}
                 category = {post.frontmatter.category}
                 date = {post.frontmatter.year}
                 partner = {post.frontmatter.partner}

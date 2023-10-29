@@ -14,7 +14,7 @@ const data = [
     "link": "/about",
     "background": "/assets/imgs/projects/bgmr.jpg",
     "caption": {
-      "subTitle": "Artiste Digital",
+      "description": "Artiste Digital",
       "title": "Marion Roche",
     }
   },
@@ -73,7 +73,7 @@ function Fullscreen() {
                   <div className="row">
                     <div className="col-lg-11 offset-lg-1">
                       <div className="caption">
-                        <h6 className="sub-title mb-30" data-swiper-parallax="-1000">{item.caption.year} <br /> {item.caption.subTitle}</h6>
+                        <h6 className="sub-title mb-30" data-swiper-parallax="-1000">{item.caption.year} <br /> {item.caption.description}</h6>
                         <h1>
                           <a href={item.link || `/project/${item.id}`} className="animsition-link">
                             <span data-swiper-parallax="-2000">{item.caption.title}</span>

@@ -4,7 +4,7 @@
     "background": "/assets/imgs/projects/bg1.png",
     "caption": {
       "year": "2021 - en cours",
-      "subTitle": "Installation pour dispositif de réalité virtuelle",
+      "description": "Installation pour dispositif de réalité virtuelle",
       "title": "Des marées de mémoires"
     },
     "content": "<h2 className='mb-20'>TITRE</h2><h5 className='mb-10 fw-400'>Description et explications.</h5><p className='fz-18'>Et tout ça !</p>",
@@ -41,7 +41,7 @@
     "background": "/assets/imgs/projects/bg2.jpg",
     "caption": {
       "year": "2023",
-      "subTitle": "Sculpture",
+      "description": "Sculpture",
       "title": "Je viens de te voir en rêve"
     },
     "images" : [
@@ -76,7 +76,7 @@
     "background": "/assets/imgs/projects/bg3.jpg",
     "caption": {
       "year": "2023",
-      "subTitle": "Installations & Intelligence Artificielle (AI)",
+      "description": "Installations & Intelligence Artificielle (AI)",
       "title": "enfAIr & divAIn"
     },
     "images" : [
@@ -111,7 +111,7 @@
     "background": "/assets/imgs/projects/bg4.png",
     "caption": {
       "year": "2022",
-      "subTitle": "Installation A/V pour DEAUM",
+      "description": "Installation A/V pour DEAUM",
       "title": "Synergetics"
     },
     "videoSource": "/assets/imgs/projects/bg4.mov",
@@ -147,7 +147,7 @@
     "background": "/assets/imgs/projects/bg5.jpg",
     "caption": {
       "year": "2021",
-      "subTitle": "Installation pour dispositif de réalité virtuelle",
+      "description": "Installation pour dispositif de réalité virtuelle",
       "title": "Pharmakon",
       "title2": "Le charme de la discrétisation"
     },
@@ -183,7 +183,7 @@
     "background": "/assets/imgs/projects/bg6.png",
     "caption": {
       "year": "2021",
-      "subTitle": "Installation A/V pour DEAUM",
+      "description": "Installation A/V pour DEAUM",
       "title": "Insight"
     },
     "videoSource": "/assets/imgs/projects/bg6.mov",
@@ -219,7 +219,7 @@
     "background": "/assets/imgs/projects/bg7.jpg",
     "caption": {
       "year": "2020",
-      "subTitle": "Installation A/V interactive",
+      "description": "Installation A/V interactive",
       "title": "Rien n'aura eu lieu, que le lieu,",
       "title2": "excepté peut-être une constellation"
     },
@@ -255,7 +255,7 @@
     "background": "/assets/imgs/projects/bg8.jpg",
     "caption": {
       "year": "2020",
-      "subTitle": "Performance A/V sous dôme",
+      "description": "Performance A/V sous dôme",
       "title": "Synapse"
     },
     "images" : [
@@ -290,7 +290,7 @@
     "background": "/assets/imgs/projects/bg9.jpg",
     "caption": {
       "year": "2019",
-      "subTitle": "Sculpture",
+      "description": "Sculpture",
       "title": "Limen"
     },
     "images" : [
@@ -325,7 +325,7 @@
     "background": "/assets/imgs/projects/bg10.jpg",
     "caption": {
       "year": "2018",
-      "subTitle": "Sculpture",
+      "description": "Sculpture",
       "title": "Strati"
     },
     "images" : [
@@ -360,7 +360,7 @@
     "background": "/assets/imgs/projects/bg11.jpg",
     "caption": {
       "year": "2014-2018",
-      "subTitle": "Sculptures",
+      "description": "Sculptures",
       "title": "Mythopoeïa"
     },
     "images" : [
@@ -395,7 +395,7 @@
     "background": "/assets/imgs/projects/bg12.jpg",
     "caption": {
       "year": "... - 2023",
-      "subTitle": "Design",
+      "description": "Design",
       "title": "Objets & mobiliers"
     },
     "images" : [
@@ -430,7 +430,7 @@
     "background": "/assets/imgs/projects/bg13.jpg",
     "caption": {
       "year": "... - 2023",
-      "subTitle": "Composition",
+      "description": "Composition",
       "title": "Projets musicaux & sonores"
     },
     "images" : [

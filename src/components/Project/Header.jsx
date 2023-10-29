@@ -13,7 +13,8 @@ function Header(props) {
         <div className="row">
           <div className="col-lg-6 valign">
             <div className="full-width mb-30">
-              <h1 className="fz-60">{props.name}</h1>
+              <h1 className="fz-60">{props.title}</h1>
+              <h1 className="fz-60">{props.subtitle}</h1>
               <p>{props.desc}</p>
             </div>
           </div>
