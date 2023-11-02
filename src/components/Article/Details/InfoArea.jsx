@@ -9,8 +9,8 @@ function InfoArea() {
             <span>Tags :</span>
           </div>
           <div>
-            <a href="/blog-classic">Tech</a>
-            <a href="/blog-classic">ThemesCamp</a>
+            <a href="/article-classic">Tech</a>
+            <a href="/article-classic">ThemesCamp</a>
           </div>
         </div>
       </div>

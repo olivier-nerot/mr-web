@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { getSinglePost, getAllPosts } from "/src/app/utils.js"
+import { getAllPosts } from "/src/app/utils.js"
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -9,16 +9,12 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
-import Header from "@/components/Project/Header";
-
-import Works from "@/components/Project/Works";
-import Content from "@/components/Project/Content";
-import Video from "@/components/Project/Video";
-import NextProject from "@/components/Project/NextProject";
+import Header from "@/components/Article/Header";
+import Articles from "@/components/Article/Articles";
 import Footer1 from "@/components/Common/Footer1";
 
 export const metadata = {
-  title: 'projet',
+  title: 'Actualité',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -31,20 +27,8 @@ export const metadata = {
   }
 }
 
-export default function ProjectOnePage({params}) {
+export default function Article() {
   const projects = getAllPosts("src/data/Projects")
-
-  let id = parseInt(params.id)
-  let post;
-  
-  try {
-    post = getSinglePost(id, 'src/data/Projects')
-  } catch (error) {
-    id=1;
-    post = getSinglePost(id, 'src/data/Projects')
-  }
-  
-  const nextid = id+1
 
   return (
     <body className="main-bg">
@@ -57,31 +41,17 @@ export default function ProjectOnePage({params}) {
         <Menu projects={projects}/>
         <div id="smooth-content">
           <main className="main-bg">
-            <div className="main-box main-bg ontop">
-              <Header 
-                title = {post.frontmatter.title}
-                subtitle = {post.frontmatter.subtitle}
-                desc = {post.frontmatter.description}
-                category = {post.frontmatter.category}
-                date = {post.frontmatter.year}
-                partner = {post.frontmatter.partner}
-                award = {post.frontmatter.award}
-              />
-              <Content content = {post.content} />
-              {post.frontmatter.video ?<Video url = {post.frontmatter.video} /> : '' }
-              {post.frontmatter.video2 ? <Video url = {post.frontmatter.video2} /> : '' }
-              <Works images={post.frontmatter.images} />
-            </div>
-            <NextProject url={`/project/${nextid}`}/>
+            <Header />
+            <Articles articles={projects}/>
           </main>
-          <Footer1 />
+          <Footer1 subBg />
         </div>
       </div>
 
-
       <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/isotope.pkgd.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/isotope.pkgd.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/wow.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/ScrollSmoother.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/ScrollTrigger.min.js" strategy="beforeInteractive" />

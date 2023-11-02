@@ -6,27 +6,22 @@ import AuthorArea from './AuthorArea';
 import NextPrev from './NextPrev';
 import CommentsForm from './CommentsForm';
 
-function Details() {
+function Details({article}) {
   return (
-    <section className="blog">
+    <section className="article">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="main-post section-padding">
-              {/* Blog Content */}
-              <Content />
-              {/* Info Area */}
-              <InfoArea />
-              {/* Author Area */}
-              <AuthorArea />
-              {/* Next Prev */}
+              <Content content={article.content}/>
+              {/* <InfoArea />
+              <AuthorArea /> */}
               <NextPrev />
             </div>
           </div>
         </div>
       </div>
-      {/* Comments Form */}
-      <CommentsForm />
+      {/* <CommentsForm /> */}
     </section>
   )
 }

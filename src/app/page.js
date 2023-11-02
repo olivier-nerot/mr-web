@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { getAllPosts } from "/src/app/utils.js"
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -25,6 +26,19 @@ export const metadata = {
 }
 
 export default function PortfolioFullscreenPage() {
+  let projects = getAllPosts("src/data/Projects");
+
+  projects = [
+    {
+    "id": "0",
+    "link": "/about",
+    "background": "/assets/imgs/projects/bgmr.jpg",
+    "description": "Artiste Digital",
+    "title": "Marion Roche",
+    },
+    ...projects,
+  ]
+
   return (
     <body className="main-bg">
       <LoadingScreen />
@@ -32,8 +46,8 @@ export default function PortfolioFullscreenPage() {
       <ProgressScroll />
 
       <Navbar />
-      <Menu />
-      <Fullscreen />
+      <Menu projects={projects}/>
+      <Fullscreen projects={projects}/>
 
       <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />

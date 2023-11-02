@@ -6,7 +6,7 @@ function AuthorArea() {
       <div className="flex">
         <div className="author-img mr-30">
           <div className="img">
-            <img src="/assets/imgs/blog/author1.jpg" alt="" className="circle-img" />
+            <img src="/assets/imgs/article/author1.jpg" alt="" className="circle-img" />
           </div>
         </div>
         <div className="cont valign">

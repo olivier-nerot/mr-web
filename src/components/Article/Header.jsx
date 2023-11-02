@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="header-blog">
+    <header className="header-article">
       <div className="container">
         <div className="row">
           <div className="col-12">

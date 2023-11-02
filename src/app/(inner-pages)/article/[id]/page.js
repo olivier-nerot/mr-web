@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { getSinglePost, getAllPosts } from "/src/app/utils.js"
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -8,12 +9,12 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
-import Header from "@/components/Blog/Header";
-import Blogs from "@/components/Blog/Blogs";
+import Header from "@/components/Article/Details/Header";
 import Footer1 from "@/components/Common/Footer1";
+import Details from "@/components/Article/Details/Details";
 
 export const metadata = {
-  title: 'Bayone - Blog',
+  title: 'Article',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -26,7 +27,19 @@ export const metadata = {
   }
 }
 
-export default function Blog() {
+export default function Article({params}) {
+  const projects = getAllPosts("src/data/Projects")
+
+  let id = parseInt(params.id)
+  let article;
+  
+  try {
+    article = getSinglePost(id, 'src/data/Articles')
+  } catch (error) {
+    id=1;
+    article = getSinglePost(id, 'src/data/Articles')
+  }
+
   return (
     <body className="main-bg">
       <LoadingScreen />
@@ -35,11 +48,11 @@ export default function Blog() {
 
       <div id="smooth-wrapper">
         <Navbar />
-        <Menu />
+        <Menu projects={projects}/>
         <div id="smooth-content">
           <main className="main-bg">
-            <Header />
-            <Blogs />
+            <Header article={article} />
+            <Details article={article} />
           </main>
           <Footer1 subBg />
         </div>

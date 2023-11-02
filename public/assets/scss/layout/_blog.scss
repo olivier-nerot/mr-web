@@ -1,16 +1,16 @@
 
-/* Blogs
+/* Articles
 -----------------------------------------------------------------*/
 
-.blog,
-.blog-list{
+.article,
+.article-list{
 
 	&.box-light{
 		background: #e4e4e4;
 	}
 }
 
-.blog-list{
+.article-list{
 
 	.item{
 		position: relative;
@@ -73,7 +73,7 @@
 	}
 }
 
-.blog-list2{
+.article-list2{
 
 	.item{
 		border-color: rgba(255,255,255,.07);
@@ -113,7 +113,7 @@
 	}
 }
 
-.blog-column{
+.article-column{
 
 	.item{
 		border: 1px solid rgba(255,255,255,.1);
@@ -231,7 +231,7 @@
 	}
 }
 
-.blog-metro{
+.article-metro{
 
 	&.bg-gray{
 
@@ -279,7 +279,7 @@
 	}
 }
 
-.blog-header{
+.article-header{
 
 	.background{
         min-height: 480px;

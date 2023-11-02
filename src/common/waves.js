@@ -945,7 +945,7 @@ THREE.CanvasRenderer = function (parameters) {
 
 		}
 
-		// http://extremelysatisfactorytotalitarianism.com/blog/?p=2120
+		// http://extremelysatisfactorytotalitarianism.com/article/?p=2120
 
 		var a, b, c, d, e, f, det, idet,
 			offsetX = texture.offset.x / texture.repeat.x,
@@ -992,7 +992,7 @@ THREE.CanvasRenderer = function (parameters) {
 	/*
 	function clipImage( x0, y0, x1, y1, x2, y2, u0, v0, u1, v1, u2, v2, image ) {
   
-			// http://extremelysatisfactorytotalitarianism.com/blog/?p=2120
+			// http://extremelysatisfactorytotalitarianism.com/article/?p=2120
   
 			var a, b, c, d, e, f, det, idet,
 			width = image.width - 1,

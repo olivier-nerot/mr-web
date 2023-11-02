@@ -268,7 +268,7 @@
     }
 
     .about-header .cont h1,
-    .header-blog .cont h1,
+    .header-article .cont h1,
     .crev-header h1,
     .contact-header .cont h1{
         font-size: 70px;
@@ -344,7 +344,7 @@
         }
     }
 
-    .blog-list .item .hover-reveal{
+    .article-list .item .hover-reveal{
         right: 30px;
     }
 
@@ -663,7 +663,7 @@
     }
 
     .about-header .cont h1,
-    .header-blog .cont h1,
+    .header-article .cont h1,
     .contact-header .cont h1{
         font-size: 40px;
     }
@@ -733,15 +733,15 @@
         font-size: 70px;
     }
 
-    .blog-list .item .block__link{
+    .article-list .item .block__link{
         display: none;
     }
 
-    .blog-column .item .cont h4{
+    .article-column .item .cont h4{
         font-size: 22px;
     }
 
-    .blog-metro .item .img{
+    .article-metro .item .img{
         margin-bottom: 30px;
     }
 
@@ -980,7 +980,7 @@
         }
     }
 
-    .blog-header{
+    .article-header{
         
         .info{
             display: block !important;

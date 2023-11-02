@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { getSinglePost } from "/src/app/utils.js"
+import { getSinglePost, getAllPosts } from "/src/app/utils.js"
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -29,6 +29,7 @@ export const metadata = {
 
 export default function About() {
   const bio = getSinglePost('bio', 'src/data/About')
+  const projects = getAllPosts("src/data/Projects")
 
   return (
     <body className="main-bg">
@@ -38,7 +39,7 @@ export default function About() {
 
       <div id="smooth-wrapper">
         <Navbar />
-        <Menu />
+        <Menu projects={projects}/>
         <div id="smooth-content">
           <main className="main-bg">
             <Header />

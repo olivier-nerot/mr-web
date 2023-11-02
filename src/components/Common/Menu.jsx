@@ -2,9 +2,9 @@
 import React from 'react';
 
 //= Static Data
-import data from '@/data/Projects/list.json';
+// import data from '@/data/Projects/list.json';
 
-function Menu() {
+function Menu({projects}) {
   function closeMenu() {
     document.querySelector('.hamenu').classList.remove("open");
   }
@@ -60,10 +60,10 @@ function Menu() {
                     <div className="row">
                       <div className="col-md-6 ww">
                         <ul className="rest">
-                        {data.slice(0, 7).map(item => (
+                        {projects.slice(0, 7).map(item => (
                           <li key={item.id}>
                             <div className="o-hidden">
-                              <a href={`/project/${item.id}`} className="sub-link animsition-link" onClick={closeMenu}>{item.caption.title} {item.caption.title2}</a>
+                              <a href={`/project/${item.id}`} className="sub-link animsition-link" onClick={closeMenu}>{item.title} {item.subtitle}</a>
                             </div>
                           </li>
                         ))}
@@ -71,10 +71,10 @@ function Menu() {
                       </div>
                       <div className="col-md-6 ww">
                         <ul className="rest">
-                        {data.slice(7, 14).map(item => (
+                        {projects.slice(7, 14).map(item => (
                           <li key={item.id}>
                             <div className="o-hidden">
-                              <a href={`/project/${item.id}`} className="sub-link animsition-link" onClick={closeMenu}>{item.caption.title} {item.caption.title2}</a>
+                              <a href={`/project/${item.id}`} className="sub-link animsition-link" onClick={closeMenu}>{item.title} {item.subtitle}</a>
                             </div>
                           </li>
                         ))}
@@ -85,7 +85,7 @@ function Menu() {
                 </li>
                 {/* <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
-                    <a href="/blog" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Actualité</a>
+                    <a href="/articles" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Actualité</a>
                   </div>
                 </li> */}
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>

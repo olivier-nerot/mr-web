@@ -3865,24 +3865,24 @@ body.loaded {
   margin-left: 15px;
 }
 
-/* Blogs
+/* Articles
 -----------------------------------------------------------------*/
-.blog.box-light,
-.blog-list.box-light {
+.article.box-light,
+.article-list.box-light {
   background: #e4e4e4;
 }
 
-.blog-list .item {
+.article-list .item {
   position: relative;
   padding: 40px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.blog-list .item:last-of-type {
+.article-list .item:last-of-type {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.blog-list .item .block__link {
+.article-list .item .block__link {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -3890,7 +3890,7 @@ body.loaded {
   left: 0;
 }
 
-.blog-list .item .hover-reveal {
+.article-list .item .hover-reveal {
   position: absolute;
   top: 50% !important;
   right: 20%;
@@ -3902,31 +3902,31 @@ body.loaded {
   height: 280px;
 }
 
-.blog-list .item .info {
+.article-list .item .info {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
 
-.blog-list .item .info .tag {
+.article-list .item .info .tag {
   padding: 7px 20px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   margin-right: 15px;
 }
 
-.blog-list .item .info .date {
+.article-list .item .info .date {
   opacity: .8;
 }
 
-.blog-list .item h3 {
+.article-list .item h3 {
   font-size: 30px;
   font-weight: 600;
   line-height: 1.5;
 }
 
-.blog-list .item .more {
+.article-list .item .more {
   padding: 12px 20px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 5px;
@@ -3934,16 +3934,16 @@ body.loaded {
   text-transform: uppercase;
 }
 
-.blog-list2 .item {
+.article-list2 .item {
   border-color: rgba(255, 255, 255, 0.07);
 }
 
-.blog-list2 .item .tags {
+.article-list2 .item .tags {
   position: relative;
   bottom: -10px;
 }
 
-.blog-list2 .item .tags a {
+.article-list2 .item .tags a {
   padding: 5px 14px;
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 30px;
@@ -3951,7 +3951,7 @@ body.loaded {
   margin-right: 5px;
 }
 
-.blog-list2 .item .img {
+.article-list2 .item .img {
   height: 160px;
   -webkit-clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%);
   clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%);
@@ -3962,7 +3962,7 @@ body.loaded {
   transition: clip-path .5s, -webkit-clip-path .5s;
 }
 
-.blog-list2 .item .img img {
+.article-list2 .item .img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -3971,21 +3971,21 @@ body.loaded {
   object-position: center center;
 }
 
-.blog-list2 .item:hover .img {
+.article-list2 .item:hover .img {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.blog-column .item {
+.article-column .item {
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 30px;
 }
 
-.blog-column .item .img {
+.article-column .item .img {
   position: relative;
 }
 
-.blog-column .item .img .date {
+.article-column .item .img .date {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -3993,32 +3993,32 @@ body.loaded {
   font-weight: 600;
 }
 
-.blog-column .item .img .date strong {
+.article-column .item .img .date strong {
   font-size: 30px;
   display: block;
 }
 
-.blog-column .item .cont {
+.article-column .item .cont {
   padding: 25px;
 }
 
-.blog-column .item .cont.cont-link {
+.article-column .item .cont.cont-link {
   padding: 60px 25px;
 }
 
-.blog-column .item .cont h4 {
+.article-column .item .cont h4 {
   line-height: 1.3;
   font-size: 25px;
   font-weight: 500;
 }
 
-.blog-column .item .cont .more {
+.article-column .item .cont .more {
   position: relative;
   padding-left: 10px;
   color: #ccc;
 }
 
-.blog-column .item .cont .more:after {
+.article-column .item .cont .more:after {
   content: '';
   position: absolute;
   top: 0;
@@ -4028,20 +4028,20 @@ body.loaded {
   background: #fff;
 }
 
-.blog-column .item .cont .more:hover {
+.article-column .item .cont .more:hover {
   color: #fff;
 }
 
-.blog-column.bg-white .item {
+.article-column.bg-white .item {
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 0px;
 }
 
-.blog-column.bg-white .item .img {
+.article-column.bg-white .item .img {
   position: relative;
 }
 
-.blog-column.bg-white .item .img .date {
+.article-column.bg-white .item .img .date {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -4049,32 +4049,32 @@ body.loaded {
   color: #fff;
 }
 
-.blog-column.bg-white .item .img .date strong {
+.article-column.bg-white .item .img .date strong {
   font-size: 30px;
   display: block;
 }
 
-.blog-column.bg-white .item .cont {
+.article-column.bg-white .item .cont {
   padding: 25px;
 }
 
-.blog-column.bg-white .item .cont.cont-link {
+.article-column.bg-white .item .cont.cont-link {
   padding: 60px 25px;
 }
 
-.blog-column.bg-white .item .cont h4 {
+.article-column.bg-white .item .cont h4 {
   line-height: 1.3;
   font-size: 35px;
   font-weight: 500;
 }
 
-.blog-column.bg-white .item .cont .more {
+.article-column.bg-white .item .cont .more {
   position: relative;
   padding-left: 10px;
   color: #777;
 }
 
-.blog-column.bg-white .item .cont .more:after {
+.article-column.bg-white .item .cont .more:after {
   content: '';
   position: absolute;
   top: 0;
@@ -4084,27 +4084,27 @@ body.loaded {
   background: #0c0c0c;
 }
 
-.blog-column.bg-white .item .cont .more:hover {
+.article-column.bg-white .item .cont .more:hover {
   color: #0c0c0c;
 }
 
-.blog-metro.bg-gray .item {
+.article-metro.bg-gray .item {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
-.blog-metro .item {
+.article-metro .item {
   padding: 25px 10px;
   margin: 0;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.blog-metro .item .img {
+.article-metro .item .img {
   position: relative;
   width: 100%;
   height: 300px;
 }
 
-.blog-metro .item .img .date {
+.article-metro .item .img .date {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -4117,13 +4117,13 @@ body.loaded {
   text-transform: uppercase;
 }
 
-.blog-metro .item .img .date strong {
+.article-metro .item .img .date strong {
   display: block;
   font-size: 25px;
   line-height: 1.2;
 }
 
-.blog-metro .item .img img {
+.article-metro .item .img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -4132,7 +4132,7 @@ body.loaded {
   object-position: center;
 }
 
-.blog-header .background {
+.article-header .background {
   min-height: 480px;
 }
 
@@ -4786,15 +4786,15 @@ footer .logo img {
   height: 100%;
 }
 
-.header-blog {
+.header-article {
   padding: 220px 0 0;
 }
 
-.header-blog .cont h6 {
+.header-article .cont h6 {
   font-size: 18px;
 }
 
-.header-blog .cont h1 {
+.header-article .cont h1 {
   font-size: 100px;
 }
 
@@ -6446,7 +6446,7 @@ footer .logo img {
     height: 45vh;
   }
   .about-header .cont h1,
-  .header-blog .cont h1,
+  .header-article .cont h1,
   .crev-header h1,
   .contact-header .cont h1 {
     font-size: 70px;
@@ -6507,7 +6507,7 @@ footer .logo img {
     width: 100%;
     margin-bottom: 50px;
   }
-  .blog-list .item .hover-reveal {
+  .article-list .item .hover-reveal {
     right: 30px;
   }
   .carousel-slider .gallery-text .text h4 {
@@ -6759,7 +6759,7 @@ footer .logo img {
     padding: 0;
   }
   .about-header .cont h1,
-  .header-blog .cont h1,
+  .header-article .cont h1,
   .contact-header .cont h1 {
     font-size: 40px;
   }
@@ -6810,13 +6810,13 @@ footer .logo img {
   .numbers h3 {
     font-size: 70px;
   }
-  .blog-list .item .block__link {
+  .article-list .item .block__link {
     display: none;
   }
-  .blog-column .item .cont h4 {
+  .article-column .item .cont h4 {
     font-size: 22px;
   }
-  .blog-metro .item .img {
+  .article-metro .item .img {
     margin-bottom: 30px;
   }
   .contact-header .google-map {
@@ -6984,13 +6984,13 @@ footer .logo img {
   .next-project .icon-img-70 {
     width: 30px;
   }
-  .blog-header .info {
+  .article-header .info {
     display: block !important;
   }
-  .blog-header .left-info > .d-flex {
+  .article-header .left-info > .d-flex {
     display: block !important;
   }
-  .blog-header .ml-50 {
+  .article-header .ml-50 {
     margin-left: 0 !important;
     margin-top: 30px;
     margin-bottom: 30px;

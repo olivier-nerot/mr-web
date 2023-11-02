@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { getAllPosts } from "/src/app/utils.js"
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -8,12 +9,12 @@ import ProgressScroll from "@/components/Common/ProgressScroll";
 //= Page Components
 import Navbar from "@/components/Common/Navbar";
 import Menu from "@/components/Common/Menu";
-import Header from "@/components/Blog/Details/Header";
+import Header from "@/components/Article/Header";
+import Articles from "@/components/Article/Articles";
 import Footer1 from "@/components/Common/Footer1";
-import Details from "@/components/Blog/Details/Details";
 
 export const metadata = {
-  title: 'Bayone - Blog Details',
+  title: 'Actualité',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -26,7 +27,10 @@ export const metadata = {
   }
 }
 
-export default function BlogDetails() {
+export default function Article() {
+  const articles = getAllPosts("src/data/Articles")
+  const projects = getAllPosts("src/data/Projects")
+
   return (
     <body className="main-bg">
       <LoadingScreen />
@@ -35,11 +39,11 @@ export default function BlogDetails() {
 
       <div id="smooth-wrapper">
         <Navbar />
-        <Menu />
+        <Menu projects={projects}/>
         <div id="smooth-content">
           <main className="main-bg">
             <Header />
-            <Details />
+            <Articles articles={articles}/>
           </main>
           <Footer1 subBg />
         </div>

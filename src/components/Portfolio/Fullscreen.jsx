@@ -5,21 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, Parallax, Pagination, Mousewheel } from 'swiper';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
-//= Static Data
-import projects from '@/data/Projects/list.json';
-
-const data = [
-  {
-    "id": 0,
-    "link": "/about",
-    "background": "/assets/imgs/projects/bgmr.jpg",
-    "caption": {
-      "description": "Artiste Digital",
-      "title": "Marion Roche",
-    }
-  },
-  ...projects
-]
 
 const swiperOptions = {
   modules: [Navigation, Autoplay, Parallax, Pagination, Mousewheel],
@@ -57,7 +42,7 @@ const swiperOptions = {
   }
 }
 
-function Fullscreen() {
+function Fullscreen({projects}) {
   useEffect(() => {
     loadBackgroudImages();
   }, []);
@@ -66,18 +51,18 @@ function Fullscreen() {
     <header className="full-showcase">
       <div className="swiper-container parallax-slider">
         <Swiper {...swiperOptions}>
-          {data.map((item) => (
-            <SwiperSlide key={item.id}>
-              <div className="bg-img valign" data-background={item.background} data-overlay-dark="3">
-                <div className={`container ${item.videoSource ? 'ontop' : ''}`}>
+          {projects.map((project) => (
+            <SwiperSlide key={project.id}>
+              <div className="bg-img valign" data-background={project.background} data-overlay-dark="3">
+                <div className={`container ${project.videoSource ? 'ontop' : ''}`}>
                   <div className="row">
                     <div className="col-lg-11 offset-lg-1">
                       <div className="caption">
-                        <h6 className="sub-title mb-30" data-swiper-parallax="-1000">{item.caption.year} <br /> {item.caption.description}</h6>
+                        <h6 className="sub-title mb-30" data-swiper-parallax="-1000">{project.year} <br /> {project.description}</h6>
                         <h1>
-                          <a href={item.link || `/project/${item.id}`} className="animsition-link">
-                            <span data-swiper-parallax="-2000">{item.caption.title}</span>
-                            <span data-swiper-parallax="-2000">{item.caption.title2}</span>
+                          <a href={project.link || `/project/${project.id}`} className="animsition-link">
+                            <span data-swiper-parallax="-2000">{project.title}</span>
+                            <span data-swiper-parallax="-2000">{project.subtitle}</span>
                           </a>
                         </h1>
                       </div>
@@ -85,10 +70,10 @@ function Fullscreen() {
                   </div>
                 </div>
                 {
-                  item.videoSource &&
+                  project.videoSource &&
                   <div className="video-container">
                     <video autoPlay loop muted>
-                      <source src={item.videoSource} type="video/mp4" />
+                      <source src={project.videoSource} type="video/mp4" />
                     </video>
                   </div>
                 }
