@@ -33,5 +33,5 @@ export const getAllPosts = (folder) => {
       const { data } = matter(source); // extract frontmatter
       return data;
     })
-    .sort((a, b) => parseInt(a.id) - parseInt(b.id));
+    .sort((a, b) => parseInt(b.id) - parseInt(a.id));
 };

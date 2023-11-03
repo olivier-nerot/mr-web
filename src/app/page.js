@@ -26,18 +26,7 @@ export const metadata = {
 }
 
 export default function PortfolioFullscreenPage() {
-  let projects = getAllPosts("src/data/Projects");
-
-  projects = [
-    {
-    "id": "0",
-    "link": "/about",
-    "background": "/assets/imgs/projects/bgmr.jpg",
-    "description": "Artiste Digital",
-    "title": "Marion Roche",
-    },
-    ...projects,
-  ]
+  const projects = getAllPosts("src/data/Projects");
 
   return (
     <body className="main-bg">
@@ -47,7 +36,16 @@ export default function PortfolioFullscreenPage() {
 
       <Navbar />
       <Menu projects={projects}/>
-      <Fullscreen projects={projects}/>
+      <Fullscreen projects={[
+        {
+        "id": "0",
+        "link": "/about",
+        "background": "/assets/imgs/projects/bgmr.jpg",
+        "description": "Artiste Digital",
+        "title": "Marion Roche",
+        },
+        ...projects,
+      ]}/>
 
       <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />
