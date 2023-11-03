@@ -27,6 +27,11 @@ export const metadata = {
   }
 }
 
+export function generateStaticParams() {
+  const articles = getAllPosts("src/data/Articles")
+  return articles.map((p) => {return {id:p.id.toString()}})
+}
+
 export default function Article({params}) {
   const projects = getAllPosts("src/data/Projects")
 

@@ -31,6 +31,11 @@ export const metadata = {
   }
 }
 
+export function generateStaticParams() {
+  const projects = getAllPosts("src/data/Projects")
+  return projects.map((p) => {return {id:p.id.toString()}})
+}
+
 export default function ProjectOnePage({params}) {
   const projects = getAllPosts("src/data/Projects")
 
