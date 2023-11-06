@@ -288,7 +288,7 @@ span {
 
 a {
   display: inline-block;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {

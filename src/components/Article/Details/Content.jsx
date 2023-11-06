@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 function Content({content}) {
   return (
@@ -7,7 +8,7 @@ function Content({content}) {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="text">
-              {content}
+              <ReactMarkdown>{ content }</ReactMarkdown>
             </div>
           </div>
         </div>

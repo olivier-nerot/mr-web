@@ -83,11 +83,11 @@ function Menu({projects}) {
                     </div>
                   </div>
                 </li>
-                {/* <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
                     <a href="/articles" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Actualité</a>
                   </div>
-                </li> */}
+                </li>
                 <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
                     <a href="/contact" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Contact</a>
