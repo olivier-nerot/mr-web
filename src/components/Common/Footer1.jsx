@@ -33,7 +33,7 @@ function Footer1({ subBg }) {
               <div className="eml">
                 <h6 className="sub-title opacity-8">e-mail :</h6>
                 <h2 className="fz-60">
-                  <a href="#0">contact@marionroche.com</a>
+                  <a href="mailto://contact@marionroche.com">contact@marionroche.com</a>
                 </h2>
               </div>
             </div>
@@ -49,16 +49,13 @@ function Footer1({ subBg }) {
                 <h6 className="sub-title mb-30">Social Media</h6>
                 <ul className="rest">
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">Facebook</a>
+                    <a href="https://facebook.com/holy.movie" className="hover-anim">Facebook</a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">twitter</a>
+                    <a href="https://linkedin.com/marion.roche" className="hover-anim">LinkedIn</a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">LinkedIn</a>
-                  </li>
-                  <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">Instagram</a>
+                    <a href="https://instagram.com/marionroche_kerta" className="hover-anim">Instagram</a>
                   </li>
                 </ul>
               </div>

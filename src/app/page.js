@@ -41,7 +41,7 @@ export default function PortfolioFullscreenPage() {
         "id": "0",
         "link": "/about",
         "background": "/assets/imgs/projects/bgmr.jpg",
-        "description": "Artiste Digital",
+        "description": "Artiste Numérique",
         "title": "Marion Roche",
         },
         ...projects,

@@ -88,11 +88,11 @@ function Menu({projects}) {
                     <a href="/articles" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Actualité</a>
                   </div>
                 </li>
-                <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                {/* <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                   <div className="o-hidden">
                     <a href="/contact" className="link animsition-link" onClick={closeMenu}><span className="nm">04.</span>Contact</a>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -106,7 +106,7 @@ function Menu({projects}) {
                 <h6 className="text-u fw-600 mb-20">Sur les réseaux</h6>
                 <ul className="rest social-text d-flex fz-13">
                   <li className="mr-20">
-                    <a href="/#0" target="_blank" className="hover-this"><span className="hover-anim">Facebook</span></a>
+                    <a href="https://facebook.com/holy.movie" target="_blank" className="hover-this"><span className="hover-anim">Facebook</span></a>
                   </li>
                   <li className="mr-20">
                     <a href="https://linkedin.com/marion.roche" target="_blank" className="hover-this"><span className="hover-anim">LinkedIn</span></a>
