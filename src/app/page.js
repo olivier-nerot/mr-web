@@ -51,6 +51,17 @@ export default function PortfolioFullscreenPage() {
       <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />
       <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/scripts.js" strategy="lazyOnload" />
+
+    <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9MJBH9Z12G" />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-9MJBH9Z12G');
+    </script>
     </body>
   )
 }
