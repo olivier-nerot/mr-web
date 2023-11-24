@@ -52,12 +52,7 @@ export default function PortfolioFullscreenPage() {
       <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/scripts.js" strategy="lazyOnload" />
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-9MJBH9Z12G"></script>
-      <script>
-        window.dataLayer = window.dataLayer || []; 
-        function gtag(){window.dataLayer.push(arguments)}
-        gtag('js', new Date());
-        gtag('config', 'G-9MJBH9Z12G');
-      </script>
+      <script async data-id="101434842" src="//static.getclicky.com/js"></script>
     </body>
   )
 }
