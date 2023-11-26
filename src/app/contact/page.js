@@ -54,6 +54,7 @@ export default function ContactPage() {
       <Script src="/assets/js/ScrollTrigger.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/smoother-script.js" strategy="lazyOnload" />
       <Script src="/assets/js/scripts.js" strategy="lazyOnload" />
+      <script async data-id="101434842" src="//static.getclicky.com/js"></script>
     </body>
   )
 }
