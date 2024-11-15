@@ -7,7 +7,7 @@ function Header() {
         <div className="row">
           <div className="col-lg-9 offset-lg-1">
             <div className="cont">
-              <h6 className="sub-title mb-15">Artiste Digital + A/V + VR + AI</h6>
+              <h6 className="sub-title mb-15">Artiste Numérique </h6>
               <h1 className="text-u">MARION ROCHE</h1>
             </div>
           </div>
