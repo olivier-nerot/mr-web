@@ -109,7 +109,7 @@ function Menu({projects}) {
                     <a href="https://facebook.com/holy.movie" target="_blank" className="hover-this"><span className="hover-anim">Facebook</span></a>
                   </li>
                   <li className="mr-20">
-                    <a href="https://linkedin.com/marion.roche" target="_blank" className="hover-this"><span className="hover-anim">LinkedIn</span></a>
+                    <a href="https://www.linkedin.com/in/marion-roche-ba39281a0/" target="_blank" className="hover-this"><span className="hover-anim">LinkedIn</span></a>
                   </li>
                   <li>
                     <a href="https://instagram.com/marionroche_kerta" target="_blank" className="hover-this"><span className="hover-anim">Instagram</span></a>
