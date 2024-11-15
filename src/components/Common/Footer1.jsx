@@ -49,13 +49,13 @@ function Footer1({ subBg }) {
                 <h6 className="sub-title mb-30">Social Media</h6>
                 <ul className="rest">
                   <li className="hover-this cursor-pointer">
-                    <a href="https://facebook.com/holy.movie" className="hover-anim">Facebook</a>
+                    <a href="https://facebook.com/holy.movie" target="_blank" className="hover-anim">Facebook</a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="https://www.linkedin.com/in/marion-roche-ba39281a0/" className="hover-anim">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/marion-roche-ba39281a0/" target="_blank" className="hover-anim">LinkedIn</a>
                   </li>
                   <li className="hover-this cursor-pointer">
-                    <a href="https://instagram.com/marionroche_kerta" className="hover-anim">Instagram</a>
+                    <a href="https://instagram.com/marionroche_kerta" target="_blank" className="hover-anim">Instagram</a>
                   </li>
                 </ul>
               </div>
