@@ -63,7 +63,7 @@ function Footer1({ subBg }) {
             <div className="col-lg-3">
               <div className="column">
                 <h6 className="sub-title mb-30">e-mail : </h6>
-                <p>contact@marionroche.com</p>
+                <p>marion_roche@ymail.com</p>
               </div>
             </div>
           </div>
