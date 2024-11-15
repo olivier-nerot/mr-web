@@ -100,7 +100,7 @@ function Menu({projects}) {
             <div className="cont-info">
               <div className="item mb-50">
                 <h6 className="text-u fw-600 mb-20">e-mail</h6>
-                <p className="fw-400 fz-18"><a href='mailto://contact@marionroche.com'>contact@marionroche.com</a></p>
+                <p className="fw-400 fz-18"><a href='mailto: contact@marionroche.com'>contact@marionroche.com</a></p>
               </div>
               <div className="bottom">
                 <h6 className="text-u fw-600 mb-20">Sur les réseaux</h6>
